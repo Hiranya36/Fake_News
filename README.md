@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to classify news articles as **real** or **fake** using machine learning techniques. It involves text preprocessing, feature extraction, and model training.
+This project detects whether a news article is **real or fake** using machine learning and NLP techniques. It focuses on preprocessing textual data and training a classification model.
 
 ---
 
@@ -14,20 +14,14 @@ This project aims to classify news articles as **real** or **fake** using machin
   * Stopword removal
   * Stemming
 * Feature extraction using **TF-IDF**
-* Model training using:
-
-  * Logistic Regression
-* Evaluation using:
-
-  * Accuracy
-  * Confusion Matrix
-  * F1 Score
+* Model: Logistic Regression
+* Performance evaluation using multiple metrics
 
 ---
 
 ## Tech Stack
 
-* Python 
+* Python
 * Scikit-learn
 * Pandas & NumPy
 * NLTK
@@ -38,16 +32,15 @@ This project aims to classify news articles as **real** or **fake** using machin
 
 1. Load dataset
 2. Clean and preprocess text
-3. Convert text into numerical features (TF-IDF)
-4. Train machine learning model
+3. Convert text into TF-IDF vectors
+4. Train Logistic Regression model
 5. Evaluate performance
 
 ---
 
-## Results
+## Model Performance
 
-* Successfully classified fake vs real news
-* Achieved good accuracy using classical ML models
+* **Accuracy:** 99%
 
 ---
 
@@ -62,9 +55,9 @@ This project aims to classify news articles as **real** or **fake** using machin
 
 ## Future Improvements
 
-* Compare multiple models (SVM, Random Forest)
-* Use deep learning (LSTM / BERT)
-* Build real-time news verification system
+* Compare with SVM / Random Forest
+* Use deep learning models (LSTM / BERT)
+* Build real-time fake news detection system
 
 ---
 
@@ -72,4 +65,3 @@ This project aims to classify news articles as **real** or **fake** using machin
 
 * Kaggle datasets
 * Scikit-learn documentation
-# Fake_News
